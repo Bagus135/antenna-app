@@ -3,13 +3,11 @@ import './globals.css'
 import { Github } from "lucide-react";
 import Link from "next/link";
 
-// export const metadata: Metadata = {
-//   title: "Antenna App",
-//   description: "A simple tool to calculate antenna impedance ",
-// };
 export const metadata: Metadata = {
-  title: "Fislab | Home",
-  description: "Physics Laboratory Web Introduction",
+  title: "Antenna App",
+  description: "A simple tool to calculate antenna impedance ",
+  keywords: ['Antenna', 'Antenna App', 'Bagus Mustaqim', 'Antenna Impedance'],
+  authors: [{ name: 'Bagus Mustaqim', url: 'https://antenna-app.vercel.app/' }],
 };
 
 
