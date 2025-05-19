@@ -6,6 +6,9 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Antenna App",
   description: "A simple tool to calculate antenna impedance ",
+   alternates: {
+    canonical: 'https://antenna-app.vercel.app/',
+  },
   keywords: ['Antenna', 'Antenna App', 'Bagus Mustaqim', 'Antenna Impedance'],
   authors: [{ name: 'Bagus Mustaqim', url: 'https://antenna-app.vercel.app/' }],
 };
