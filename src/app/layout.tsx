@@ -3,10 +3,15 @@ import './globals.css'
 import { Github } from "lucide-react";
 import Link from "next/link";
 
+// export const metadata: Metadata = {
+//   title: "Antenna App",
+//   description: "A simple tool to calculate antenna impedance ",
+// };
 export const metadata: Metadata = {
-  title: "Antenna App",
-  description: "A simple tool to calculate antenna impedance ",
+  title: "Fislab | Home",
+  description: "Physics Laboratory Web Introduction",
 };
+
 
 export default function RootLayout({
   children,
