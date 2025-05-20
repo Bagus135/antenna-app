@@ -128,7 +128,7 @@ export default function VSWRTabs(): JSX.Element {
                     <button
                         onClick={handleCalculate}
                         disabled={!isInputValid()}
-                        className={`w-full ${isInputValid() ? 'bg-blue-500 hover:bg-blue-600' : 'bg-gray-400'} text-white font-medium rounded-md transition duration-300`}
+                        className={`w-full ${isInputValid() ? 'bg-blue-600 hover:bg-blue-700' : 'bg-gray-400'} text-white font-medium rounded-md transition duration-300`}
                         >
                         <Link href={'#result'} className="py-3 px-4 flex w-full justify-center"> 
                             Calculate

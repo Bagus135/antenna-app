@@ -63,6 +63,7 @@ export default function ImpedanceTabs(): JSX.Element {
     const distanceInMeters = (): number => {
         const distanceValue = Number(distance);
         switch (unit.distance) {
+            case "lambda": return (distanceValue * 3 * (10 ** 8) ) / frequencyInHz();
             case "mm": return distanceValue * 1e-3;
             case "cm": return distanceValue * 1e-2;
             case "m": return distanceValue;
@@ -209,6 +210,7 @@ export default function ImpedanceTabs(): JSX.Element {
                                 onChange={(e) => setUnit({ ...unit, distance: e.target.value })}
                                 className="p-3 border border-gray-300 rounded-r-md bg-white"
                             >
+                                <option value="lambda">λ</option>
                                 <option value="mm">mm</option>
                                 <option value="cm">cm</option>
                                 <option value="m">m</option>
